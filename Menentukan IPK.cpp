@@ -21,15 +21,6 @@ main(){
 		i++;
 	}
 	cout<<"\nIPK="<<rata;
-	cout<<"\n\nIngin Kembali Menghitung IPK(0=Tidak 1=iya)?="; cin>>jawab;
-	if(jawab==1){
-		system("cls");
-		goto menu;
-	}
-	else if(jawab==0){
-		cout<<"Terima Kasih";
-	}
-	
 	getch ();
 	
 }

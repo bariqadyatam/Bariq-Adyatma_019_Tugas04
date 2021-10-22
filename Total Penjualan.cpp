@@ -35,13 +35,5 @@ main(){
 	cout<<"Harga Setelah Di Diskon="<<hrgtl<<endl;
 	cout<<"----------------------------------"<<endl<<endl;
 	
-	cout<<"Apakah Anda Mau Mengulangi Perhitungan(0=tidak 1=iya)="; cin>>jwb;
-	if(jwb==1){
-		system("cls");
-		goto menu;
-	}
-	else if(jwb==0){
-		cout<<"Semoga Hari Anda Menyenangkan :)";
-	}
 	getch();
 }
